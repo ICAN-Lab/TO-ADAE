@@ -1,4 +1,4 @@
-# TO-ADAE
+# UH-Sense
 
 UH-Sense is a UAV-based wireless sensing system capable of detecting and localizing a target in an area. The paper has been prepared to submit.
 
