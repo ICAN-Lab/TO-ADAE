@@ -8,12 +8,12 @@ Given received signal strength (RSS) measurements of the commodity WiFi receiver
 
 #### Task-oriented adversarial denoising autoencoder (TO-ADAE)
 The novelty of the system lies in the unique combination of adversarial denoising autoencoder (ADAE) and RTI to blindly denoise the corrupted measurement data without prior knowledge of the noise characteristics.
-- It achieves the a human detection rate of approximately 87\% and the localization error about 4m.
+- It achieves the human detection rate of approximately 87\% and the localization error about 4m.
 
 ## Prerequisites
 
 - Python 3.7
-- tensorflow-gpu 1.15
+- TensorFlow-GPU 1.15
 - GPU
  
 ## Getting started
@@ -31,12 +31,12 @@ Noted that our code is tested based on [tensorflow-gpu 1.15](https://www.tensorf
 Before training or test, please make sure you have prepared the dataset
 by the following steps:
 - **Step1:** Organize the directory as: 
-`your_dataset_path/conditionst /environmets`.
+`your_dataset_path/conditions /environments`.
 E.g. `dataset/humanPresence/LOS-RD/`.
 E.g. `CASIA-B/humanAbsence/NLOS-RD/`.
 
-- **Step2:** Align the dimention.
-The input dimention of TO-ADAE is **72x8**.
+- **Step2:** Align the dimension.
+The input dimension of TO-ADAE is **72x8**.
 - 72 is the number of RSS in a sample
 - 8 is the number of WiFi APs
 
@@ -57,14 +57,14 @@ Evaluate the trained model by
 ```bash
 python test.py
 ```
-It will output the localizztion of all three enviroments and detection accuracy in three enviroments. 
+It will output the localization of all three environments and detection accuracy in three environments. 
 
 
 ## Authors & Contributors
 TO-ADE is authored by
 [Wei Chen],
 [YuJia Chen],
-from Central University.
+from National Central University.
 The code is developed by
 [Wei Chen].
 Currently, it is being maintained by
