@@ -32,19 +32,13 @@ Before training or test, please make sure you have prepared the dataset
 by the following steps:
 - **Step1:** Organize the directory as: 
 `your_dataset_path/conditions /environments`.
-E.g. `dataset/humanPresence/LOS-RD/`.
-E.g. `CASIA-B/humanAbsence/NLOS-RD/`.
+E.g. `dataset/humanPresence/LOS-RD/` or `dataset/humanAbsence/NLOS-RD/`.
 
 - **Step2:** Align the dimension.
 The input dimension of TO-ADAE is **72x8**.
 - 72 is the number of RSS in a sample
 - 8 is the number of WiFi APs
 
-### Configuration 
-
-In `config.py`, you might want to change the following settings:
-- `WORK_PATH` path to save/load checkpoints
-- `CUDA_VISIBLE_DEVICES` indices of GPUs
 
 ### Train
 Train a model by
