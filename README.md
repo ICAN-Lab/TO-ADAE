@@ -36,8 +36,16 @@ E.g. `dataset/humanPresence/Clean/` or `dataset/humanAbsence/Corrupted/`.
 
 - **Step2:** Align the dimension.
 The input dimension of TO-ADAE is **72x8**.
-- 72 is the number of RSS in a sample
+- 64 is the number of RSS in a sample
 - 8 is the number of WiFi APs
+
+### Configuration 
+
+In `conf.py`, you might want to change the following settings:
+- `n_input` sizes of input vector
+(for the above example, it is "64")
+- `kernel` kernel size
+- `LR` learning rate
 
 
 ### Train
