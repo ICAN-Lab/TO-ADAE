@@ -31,8 +31,8 @@ Noted that our code is tested based on [tensorflow-gpu 1.15](https://www.tensorf
 Before training or test, please make sure you have prepared the dataset
 by the following steps:
 - **Step1:** Organize the directory as: 
-`your_dataset_path/conditions /data_type/environments`.
-E.g. `dataset/humanPresence/Clean/LOS-RD/` or `dataset/humanAbsence/Corrupted/NLOS-RD/`.
+`your_dataset_path/conditions /data_type/`.
+E.g. `dataset/humanPresence/Clean/` or `dataset/humanAbsence/Corrupted/`.
 
 - **Step2:** Align the dimension.
 The input dimension of TO-ADAE is **72x8**.
