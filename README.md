@@ -51,7 +51,7 @@ In `conf.py`, you might want to change the following settings:
 ### Train
 Train a model by
 ```bash
-python train.py
+python main.py
 ```
 It will output the localization of all three environments and detection accuracy in three environments. 
 
