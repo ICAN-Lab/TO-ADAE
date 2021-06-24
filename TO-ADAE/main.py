@@ -9,7 +9,7 @@ import math
 import pywt
 # import time
 import os
-from config import *
+from conf import *
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior() 
 
