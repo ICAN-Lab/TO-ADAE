@@ -45,12 +45,6 @@ Train a model by
 ```bash
 python train.py
 ```
-
-### Evaluation
-Evaluate the trained model by
-```bash
-python test.py
-```
 It will output the localization of all three environments and detection accuracy in three environments. 
 
 
